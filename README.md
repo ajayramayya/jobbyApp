@@ -1,6 +1,7 @@
 
 
 Jobby App
+
 Jobby App is a comprehensive job search platform built with React. It allows users to log in, browse a list of available jobs, filter them based on employment type and salary ranges, and view detailed information about specific job postings.
 
 
