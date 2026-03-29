@@ -1,0 +1,138 @@
+.job-by-id-card1 {
+  background-color: #000000;
+  padding: 15px;
+}
+
+.job-by-id-card2 {
+  background-color: #272727;
+  padding: 15px;
+  border-radius: 5px;
+}
+.visit-link-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.anchor-style {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  color: #6366f1;
+}
+.visit-para {
+  font-family: 'Roboto';
+  font-size: 17px;
+  margin-right: 7px;
+}
+.life-at-company,
+.skills-heading {
+  font-family: 'Roboto';
+  color: #f8fafc;
+  font-size: 20px;
+}
+.skills-list {
+  padding-left: 0px;
+  list-style-type: none;
+  padding: 2px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.skills-items {
+  display: flex;
+  align-items: center;
+  margin: 5px;
+}
+.skills-items-img {
+  width: 35%;
+  margin-right: 7px;
+}
+.skills-items-para {
+  font-family: 'Roboto';
+  font-size: 14px;
+  color: #f8fafc;
+}
+.life-at-company-card {
+}
+.life-para {
+  font-family: 'Roboto';
+  font-size: 18px;
+  color: #f8fafc;
+  line-height: 1.5;
+}
+.life-img {
+  width: 100%;
+}
+.similar-heading {
+  font-family: 'Roboto';
+  color: #f8fafc;
+  font-size: 25px;
+}
+.similar-list {
+  padding-left: 0px;
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+.similar-item {
+  background-color: #272727;
+  margin: 5px;
+  padding: 5px;
+  border-radius: 5px;
+  width: 300px;
+}
+.loader-container-jobs-id {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #000000;
+  min-height: 90vh;
+}
+.failure-card-in-jobs-id {
+  background-color: #000000;
+  min-height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+@media screen and (min-width: 768px) {
+  .life-at-company-card {
+    display: flex;
+    justify-content: space-between;
+  }
+  .skills-items-para {
+    font-size: 17px;
+  }
+  .skills-items-img {
+    width: 30%;
+  }
+  .skills-list {
+    width: 900px;
+    justify-content: space-between;
+  }
+  .skills-items {
+    width: 220px;
+    margin: 8px;
+  }
+  .life-para {
+    width: 80%;
+  }
+  .life-img {
+    width: 50%;
+  }
+  .similar-item {
+    margin: 8px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .life-para {
+    width: 60%;
+    font-size: 19px;
+  }
+  .life-img {
+    width: 25%;
+  }
+}

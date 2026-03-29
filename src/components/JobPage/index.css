@@ -1,0 +1,131 @@
+.job-back-card {
+  background-color: #000000;
+  min-height: 100vh;
+  padding: 25px;
+}
+.input-and-jobs-card {
+  padding: 2px;
+}
+
+.desktop-search-card {
+  border: 2px solid #64748b;
+  display: none;
+  width: 320px;
+  border-radius: 5px;
+  padding: 0px;
+  margin-bottom: 10px;
+}
+
+.search-input-in-jobs {
+  outline: none;
+  height: 29px;
+  font-family: 'Roboto';
+  border: none;
+  border-radius: 5px;
+  color: #64748b;
+  font-size: 15px;
+  flex-grow: 1;
+}
+.search-button {
+  background-color: #272727;
+  border: none;
+  outline: none;
+  width: 40px;
+  cursor: pointer;
+}
+.search-icon {
+  font-size: 20px;
+  color: #f8fafc;
+}
+.jobs-list {
+  padding-left: 0px;
+  list-style-type: none;
+}
+.loader-container-jobs {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.no-jobs-card,
+.failure-card-in-jobs {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 300px;
+}
+.no-jobs-img,
+.fail-img {
+  width: 70%;
+}
+.no-jobs-heading,
+.fail-heading {
+  font-family: 'Roboto';
+  font-size: 20px;
+  color: #f1f5f9;
+  text-align: center;
+}
+.no-jobs-para,
+.fail-para {
+  font-family: 'Roboto';
+  color: #f8fafc;
+  font-size: 14px;
+  text-align: center;
+  line-height: 1.5;
+}
+.error-button {
+  background-color: #6366f1;
+  color: #f1f5f9;
+  font-family: 'Roboto';
+  font-size: 17px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  min-width: 70px;
+  padding: 8px;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 768px) {
+  .job-back-card {
+    display: flex;
+  }
+  .input-and-jobs-card {
+    width: 100%;
+    padding: 10px;
+    padding-left: 40px;
+  }
+  .desktop-search-card {
+    display: flex;
+    justify-content: space-between;
+  }
+  .loader-container-jobs {
+    min-height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .no-jobs-heading,
+  .fail-heading {
+    font-size: 30px;
+  }
+  .no-jobs-para,
+  .fail-para {
+    font-size: 18px;
+  }
+  .no-jobs-card,
+  .failure-card-in-jobs {
+    min-height: 700px;
+  }
+}
+@media screen and (min-width: 992px) {
+  .input-and-jobs-card {
+    padding-right: 40px;
+  }
+  .no-jobs-img,
+  .fail-img {
+    width: 40%;
+  }
+}
