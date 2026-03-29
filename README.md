@@ -1,6 +1,42 @@
-In this project, let's build a **Jobby App** by applying the concepts we have learned till now.
 
-### Refer to videos below:
+
+Jobby App
+Jobby App is a comprehensive job search platform built with React. It allows users to log in, browse a list of available jobs, filter them based on employment type and salary ranges, and view detailed information about specific job postings.
+
+
+
+✨ Key Features
+
+Authentication: Secure login using JWT tokens and persistent sessions with js-cookie.
+Job Search & Filters: Search for jobs by title and filter results by employment types (Full-Time, Part-Time, etc.) and minimum salary.
+
+Job Details: View in-depth details for each job, including company descriptions, required skills, and similar job recommendations.
+
+Responsive UI: A clean, mobile-friendly interface designed with specialized CSS for different screen sizes.
+
+Loading States: Integrated loaders for a smooth user experience during API calls.
+
+
+🛠️ Tech Stack
+  Frontend: React.js
+  
+  Routing: React Router DOM
+  
+  Authentication: JWT, Cookies
+  
+  API: NxtWave Jobby App API
+  
+  Icons: React Icons
+  
+  Styling: CSS
+  
+
+Clone the repository:
+
+git clone https://github.com/ajayramayya/jobbyApp.git
+
+
+
 
 <div style="text-align: center;">
   <video style="max-width:80%;box-shadow:0 2.8px 2.2px rgba(0, 0, 0, 0.12);outline:none;" loop="true" autoplay="autoplay" controls="controls" muted>
@@ -9,14 +45,6 @@ In this project, let's build a **Jobby App** by applying the concepts we have le
 </div>
 <br/>
 
-**Failure View** <br/>
-
-<div style="text-align: center;">
-  <video style="max-width:80%;box-shadow:0 2.8px 2.2px rgba(0, 0, 0, 0.12);outline:none;" loop="true" autoplay="autoplay" controls="controls" muted>
-    <source src="https://assets.ccbp.in/frontend/content/react-js/jobby-app-failure-output-v1.mp4" type="video/mp4">
-  </video>
-</div>
-<br/>
 
 ### Design Files
 
@@ -73,7 +101,7 @@ In this project, let's build a **Jobby App** by applying the concepts we have le
 ### Completion Instructions
 
 <details>
-<summary>Functionality to be added</summary>
+<summary>Functionality that are  added</summary>
 <br/>
 
 The app must have the following functionalities
@@ -351,6 +379,12 @@ Returns a response containing the job details
 
   ```
 
+    ```text
+   username: raja
+   password: raja@2021
+
+  ```
+
 - Wrap the `Loader` component with an HTML container element and add the `data-testid` attribute value as **loader** to it
 
   ```jsx
@@ -429,4 +463,3 @@ Returns a response containing the job details
 > - All components you implement should go in the `src/components` directory.
 > - Don't change the component folder names as those are the files being imported into the tests.
 > - **Do not remove the pre-filled code**
-> - Want to quickly review some of the concepts you’ve been learning? Take a look at the Cheat Sheets.
